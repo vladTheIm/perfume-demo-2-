@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Scent By Ahingwah — Fragrances & Gift Sets</title>
+  <meta name="description" content="Luxury fragrances, gift sets and body mists from Scent By Ahingwah." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <style>
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:"DM Sans",Arial,sans-serif;color:#191715;background:#fdfbf8}a{text-decoration:none;color:inherit}button,input,select{font:inherit}.announcement{background:#17130f;color:#fff;text-align:center;padding:10px;font-size:12px;letter-spacing:.08em}.header{height:82px;padding:0 5vw;display:flex;align-items:center;justify-content:space-between;background:#fff;border-bottom:1px solid #eee9e2;position:sticky;top:0;z-index:20}.brand{display:flex;gap:10px;align-items:center;line-height:.95}.brand-mark{font-family:"Playfair Display";font-size:25px;color:#a57a32;font-weight:700}.brand span:last-child{display:flex;flex-direction:column;font-size:9px;letter-spacing:.15em}.brand strong{font-family:"Playfair Display";font-size:16px;letter-spacing:.04em}.nav{display:flex;gap:34px;font-size:13px}.nav a:hover{color:#a57a32}.header-actions{display:flex;align-items:center;gap:10px}.icon-btn,.menu-btn{border:0;background:none;cursor:pointer;font-size:20px;position:relative}.cart-btn span{position:absolute;right:-7px;top:-8px;background:#17130f;color:#fff;border-radius:99px;font-size:9px;min-width:17px;height:17px;display:grid;place-items:center}.menu-btn{display:none}.search-panel{display:none;background:#fff;padding:12px 5vw;border-bottom:1px solid #eee}.search-panel.open{display:block}.search-panel input{width:100%;padding:13px 15px;border:1px solid #ddd;border-radius:8px;outline:none}.hero{min-height:610px;display:grid;grid-template-columns:1.02fr .98fr;overflow:hidden;background:linear-gradient(120deg,#f6f0e8,#fbf9f5)}.hero-copy{padding:95px 6vw 75px}.eyebrow{font-size:11px;letter-spacing:.19em;font-weight:700;color:#9a7333}.hero h1{font-family:"Playfair Display";font-size:clamp(50px,6vw,86px);line-height:.95;margin:18px 0 22px;font-weight:700}.hero h1 em{color:#a57a32;font-style:normal}.hero-copy p{max-width:510px;color:#6f6962;font-size:17px;line-height:1.7}.hero-buttons{display:flex;gap:12px;margin:30px 0}.btn{display:inline-flex;justify-content:center;align-items:center;gap:20px;border:1px solid #1b1815;padding:14px 21px;border-radius:4px;font-weight:700;font-size:13px;cursor:pointer}.btn-dark{background:#191613;color:white}.btn-light{background:#fff;border-color:#ddd5ca}.trust-row{display:flex;gap:10px;align-items:center;color:#a57a32}.trust-row small{color:#777;font-size:11px}.hero-art{position:relative;display:grid;place-items:center;min-height:500px}.glow{position:absolute;width:460px;height:460px;border-radius:50%;background:radial-gradient(circle,#e9d8b6,transparent 65%)}.perfume-bottle{position:absolute;filter:drop-shadow(0 30px 20px rgba(0,0,0,.16))}.bottle-main{transform:rotate(-4deg);z-index:3}.bottle-side{transform:translate(170px,80px) rotate(8deg) scale(.72);opacity:.92}.cap{width:72px;height:48px;background:#27231f;border-radius:7px 7px 2px 2px;margin:auto}.neck{width:52px;height:25px;background:#d6b875;margin:auto;border-radius:3px}.bottle-body{width:190px;height:250px;border-radius:30px 30px 22px 22px;background:linear-gradient(135deg,#f7ead0,#b68a42 60%,#7d5b27);border:5px solid #dbc89f;display:flex;align-items:center;justify-content:center;flex-direction:column;color:#fff;text-shadow:0 1px 3px #58401e}.bottle-body small{font-family:"Playfair Display";font-size:31px}.bottle-body b{font-family:"Playfair Display";font-size:18px}.bottle-body i{font-size:7px;letter-spacing:.18em;margin-top:8px}.floating-note{position:absolute;background:rgba(255,255,255,.82);padding:12px 15px;border:1px solid #e7ded2;font-size:8px;letter-spacing:.12em;line-height:1.7;box-shadow:0 12px 30px rgba(0,0,0,.06)}.floating-note b{font-size:10px;letter-spacing:0}.note-1{left:5%;top:24%}.note-2{right:5%;bottom:21%}.ticker{display:flex;justify-content:center;gap:25px;flex-wrap:wrap;background:#1c1814;color:#fff;padding:14px;font-size:10px;letter-spacing:.13em}.shop-section{padding:90px 5vw}.section-heading{display:flex;align-items:end;justify-content:space-between}.section-heading h2,.collection-banner h2,.why h2{font-family:"Playfair Display";font-size:45px;margin:9px 0 0}.filters{display:flex;gap:10px;margin:30px 0}.filter,.filter-toggle{border:1px solid #ddd3c7;background:#fff;padding:9px 15px;border-radius:99px;cursor:pointer;font-size:12px}.filter.active{background:#191613;color:#fff;border-color:#191613}.filter-toggle{display:none}.product-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.product-card{background:#fff;border:1px solid #eee8df;position:relative;transition:.2s}.product-card:hover{transform:translateY(-4px);box-shadow:0 18px 45px rgba(40,30,20,.08)}.product-visual{height:280px;background:linear-gradient(145deg,#f3eee7,#faf9f7);display:grid;place-items:center;position:relative}.stock{position:absolute;left:12px;top:12px;background:#eff8f3;color:#277455;border-radius:99px;padding:6px 9px;font-size:9px;font-weight:700}.product-bottle{width:90px;height:145px;border-radius:15px 15px 10px 10px;position:relative;box-shadow:10px 15px 25px rgba(0,0,0,.12)}.product-bottle:before{content:"";position:absolute;width:36px;height:30px;top:-26px;left:27px;background:#2d2925;border-radius:4px 4px 0 0}.product-bottle:after{content:"SA";position:absolute;inset:45px 10px auto;text-align:center;color:#fff;font-family:"Playfair Display";font-size:20px}.v1{background:linear-gradient(135deg,#e8cfa1,#b88438)}.v2{background:linear-gradient(135deg,#e6dce5,#9e6c9b)}.v3{background:linear-gradient(135deg,#e9ece6,#9fb391)}.v4{background:linear-gradient(135deg,#f0d5ca,#c87963)}.v5{background:linear-gradient(135deg,#eee,#b8b5a8)}.v6{background:linear-gradient(135deg,#d9e8eb,#729da5)}.v7{background:linear-gradient(135deg,#eedcc7,#bb6e4e)}.v8{background:linear-gradient(135deg,#e5d8bf,#c2a35e)}.product-info{padding:17px}.category{font-size:9px;letter-spacing:.14em;color:#8a837b}.product-name{font-family:"Playfair Display";font-size:18px;margin:6px 0}.stars{font-size:11px;color:#b08a47;letter-spacing:2px}.price{font-weight:800;margin-top:8px}.old-price{font-size:11px;color:#aaa;text-decoration:line-through;margin-left:6px;font-weight:400}.add{width:100%;margin-top:13px;padding:11px;background:#191613;color:#fff;border:0;border-radius:3px;cursor:pointer;font-size:11px;font-weight:700}.collection-banner{margin:0 5vw 80px;background:#eee6db;min-height:360px;padding:65px 7%;display:flex;align-items:center;justify-content:space-between;overflow:hidden}.collection-banner p{max-width:470px;color:#706960;line-height:1.7}.gift-visual{width:300px;height:250px;position:relative}.gift-box{position:absolute;width:210px;height:150px;background:linear-gradient(135deg,#d4b37a,#8d682f);right:20px;bottom:20px;display:grid;place-items:center;box-shadow:0 30px 35px rgba(50,30,10,.2)}.gift-box:before{content:"";position:absolute;width:100%;height:24px;background:#efe0bd}.gift-box span{font-family:"Playfair Display";font-size:45px;color:#fff}.gift-ribbon{position:absolute;right:117px;bottom:20px;height:150px;width:20px;background:#e8d3a4}.why{text-align:center;padding:20px 5vw 100px}.benefits{display:grid;grid-template-columns:repeat(3,1fr);gap:25px;margin-top:45px}.benefits article{background:#fff;padding:30px;border:1px solid #eee8df}.benefits article>div{font-size:30px;color:#a57a32}.benefits h3{font-family:"Playfair Display";font-size:22px;margin:15px 0 7px}.benefits p{color:#777;line-height:1.6;font-size:13px}footer{background:#191613;color:#fff;padding:55px 5vw 25px;text-align:center}.footer-brand{display:flex;justify-content:center;align-items:center;gap:10px}.footer-brand b{letter-spacing:.13em;font-size:12px}.footer-links{display:flex;justify-content:center;gap:25px;margin:25px 0;font-size:12px;color:#d6d0c8}.footer-links a:hover{color:#fff}.footer-brand .brand-mark{color:#d6b875}.cart-drawer{position:fixed;z-index:50;right:-440px;top:0;width:min(420px,100%);height:100vh;background:#fff;transition:.3s;display:flex;flex-direction:column;box-shadow:-20px 0 60px rgba(0,0,0,.15)}.cart-drawer.open{right:0}.drawer-head{display:flex;justify-content:space-between;padding:25px;border-bottom:1px solid #eee}.drawer-head h2{font-family:"Playfair Display";margin:0}.drawer-head button,.modal-close{border:0;background:none;font-size:28px;cursor:pointer}.cart-items{padding:20px;overflow:auto;flex:1}.cart-row{display:grid;grid-template-columns:65px 1fr auto;gap:12px;padding:13px 0;border-bottom:1px solid #eee}.mini-art{width:65px;height:70px;display:grid;place-items:center;background:#f4efe8}.mini-art .product-bottle{width:28px;height:46px}.mini-art .product-bottle:before{width:12px;height:10px;left:8px;top:-9px}.mini-art .product-bottle:after{font-size:8px;inset:14px 2px auto}.cart-row h4{margin:3px 0;font-family:"Playfair Display";font-size:14px}.qty{display:flex;gap:8px;align-items:center;margin-top:8px}.qty button{width:22px;height:22px;border:1px solid #ddd;background:#fff;cursor:pointer}.remove{border:0;background:none;color:#9b4b3f;font-size:10px;cursor:pointer}.cart-bottom{padding:20px;border-top:1px solid #eee}.subtotal{display:flex;justify-content:space-between;margin-bottom:15px}.full{width:100%}.whatsapp{width:100%;margin-top:9px;border:1px solid #cfd9d1;background:#f3f8f4;color:#2d704f;padding:12px;border-radius:3px;cursor:pointer;font-weight:700;font-size:12px}.cart-empty{text-align:center;color:#888;padding:70px 20px;display:none}.cart-empty a{color:#a57a32}.overlay{position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:40;opacity:0;pointer-events:none;transition:.2s}.overlay.show{opacity:1;pointer-events:auto}.modal{position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:70;display:none;place-items:center;padding:20px}.modal.open{display:grid}.modal-card{background:#fff;width:min(500px,100%);padding:35px;position:relative}.modal-card h2{font-family:"Playfair Display";font-size:32px;margin:10px 0}.modal-close{position:absolute;right:15px;top:10px}.muted{font-size:12px;color:#777}.modal form{display:grid;gap:14px;margin-top:22px}.modal label{font-size:11px;font-weight:700}.modal input,.modal select{width:100%;margin-top:6px;padding:12px;border:1px solid #ddd;border-radius:3px;outline:none}.checkout-total{display:flex;justify-content:space-between;padding:15px 0;border-top:1px solid #eee;font-weight:700}.filter-toggle{display:none}
+@media(max-width:900px){.nav{display:none}.menu-btn{display:block}.hero{grid-template-columns:1fr}.hero-copy{padding:70px 7vw 30px}.hero-art{min-height:410px}.product-grid{grid-template-columns:repeat(2,1fr)}.collection-banner{padding:45px 7%}.gift-visual{display:none}.benefits{grid-template-columns:1fr}.filters{display:none}.filters.open{display:flex;flex-wrap:wrap}.filter-toggle{display:block}.section-heading{align-items:center}}
+@media(max-width:560px){.header{height:68px;padding:0 18px}.brand strong{font-size:14px}.brand span:last-child{font-size:7px}.hero-copy{padding:55px 22px 20px}.hero h1{font-size:50px}.hero-copy p{font-size:15px}.hero-buttons{flex-direction:column}.btn{width:100%}.hero-art{min-height:350px}.bottle-body{width:145px;height:195px}.bottle-side{transform:translate(105px,65px) rotate(8deg) scale(.55)}.glow{width:330px;height:330px}.floating-note{display:none}.shop-section{padding:60px 18px}.section-heading h2,.collection-banner h2,.why h2{font-size:36px}.product-grid{gap:10px}.product-visual{height:200px}.product-info{padding:12px}.product-name{font-size:15px}.collection-banner{margin:0 18px 60px;padding:45px 25px}.why{padding-bottom:65px}.ticker{font-size:8px;gap:10px}.nav{display:none}.cart-drawer{width:100%}}
+
+</style>
+</head>
+<body>
+  <div class="announcement">✨ Luxury fragrances that turn heads · Nationwide delivery in Ghana</div>
+
+  <header class="header">
+    <a class="brand" href="#">
+      <span class="brand-mark">SA</span>
+      <span>
+        <b>SCENT BY</b>
+        <strong>AHINGWAH</strong>
+      </span>
+    </a>
+
+    <nav class="nav">
+      <a href="#shop">Shop</a>
+      <a href="#collections">Collections</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="icon-btn" id="searchBtn" aria-label="Search">⌕</button>
+      <button class="icon-btn cart-btn" id="cartBtn" aria-label="Shopping cart">
+        🛍 <span id="cartCount">0</span>
+      </button>
+      <button class="menu-btn" id="menuBtn" aria-label="Menu">☰</button>
+    </div>
+  </header>
+
+  <div class="search-panel" id="searchPanel">
+    <input id="searchInput" type="search" placeholder="Search perfumes, gift sets..." />
+  </div>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow">YOUR SIGNATURE SCENT</span>
+        <h1>Smell good.<br><em>Feel unforgettable.</em></h1>
+        <p>Discover carefully selected fragrances, body mists and gift sets made for everyday luxury.</p>
+        <div class="hero-buttons">
+          <a class="btn btn-dark" href="#shop">Shop fragrances <span>→</span></a>
+          <a class="btn btn-light" href="#collections">Explore gift sets</a>
+        </div>
+        <div class="trust-row">
+          <span>★★★★★</span>
+          <small>Loved by fragrance lovers across Ghana</small>
+        </div>
+      </div>
+      <div class="hero-art">
+        <div class="glow"></div>
+        <div class="perfume-bottle bottle-main">
+          <div class="cap"></div><div class="neck"></div><div class="bottle-body"><small>SA</small><b>AHINGWAH</b><i>EAU DE PARFUM</i></div>
+        </div>
+        <div class="perfume-bottle bottle-side">
+          <div class="cap"></div><div class="neck"></div><div class="bottle-body"><small>SA</small></div>
+        </div>
+        <span class="floating-note note-1">TOP NOTES<br><b>Rose · Vanilla</b></span>
+        <span class="floating-note note-2">LONG LASTING<br><b>Premium blends</b></span>
+      </div>
+    </section>
+
+    <section class="ticker">
+      <span>FREE DELIVERY ON SELECTED ORDERS</span><span>✦</span><span>AUTHENTIC FRAGRANCES</span><span>✦</span><span>PAY WITH PAYSTACK</span><span>✦</span><span>SHOP WITH CONFIDENCE</span>
+    </section>
+
+    <section class="shop-section" id="shop">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">OUR COLLECTION</span>
+          <h2>Shop best sellers</h2>
+        </div>
+        <button class="filter-toggle" id="filterBtn">Filters +</button>
+      </div>
+
+      <div class="filters" id="filters">
+        <button class="filter active" data-filter="all">All</button>
+        <button class="filter" data-filter="perfume">Perfumes</button>
+        <button class="filter" data-filter="gift">Gift Sets</button>
+        <button class="filter" data-filter="mist">Body Mists</button>
+        <button class="filter" data-filter="unisex">Unisex</button>
+      </div>
+
+      <div class="product-grid" id="productGrid"></div>
+    </section>
+
+    <section class="collection-banner" id="collections">
+      <div>
+        <span class="eyebrow">GIFT SOMETHING BEAUTIFUL</span>
+        <h2>Signature gift sets</h2>
+        <p>Thoughtful fragrance bundles for birthdays, anniversaries and every special moment.</p>
+        <a class="btn btn-dark" href="#shop">View gift sets →</a>
+      </div>
+      <div class="gift-visual">
+        <div class="gift-box"><span>SA</span></div>
+        <div class="gift-ribbon"></div>
+      </div>
+    </section>
+
+    <section class="why" id="about">
+      <span class="eyebrow">WHY SCENT BY AHINGWAH</span>
+      <h2>A little luxury, every day.</h2>
+      <div class="benefits">
+        <article><div>✦</div><h3>Curated scents</h3><p>Beautiful fragrance profiles selected for lasting impression.</p></article>
+        <article><div>⌁</div><h3>Nationwide delivery</h3><p>We make getting your favourite scent simple across Ghana.</p></article>
+        <article><div>♡</div><h3>Personal service</h3><p>Need help choosing? Message us and we'll help you find a match.</p></article>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <div class="footer-brand"><span class="brand-mark">SA</span><b>SCENT BY AHINGWAH</b></div>
+    <p>Luxury fragrances that turn heads.</p>
+    <div class="footer-links"><a href="#shop">Shop</a><a href="#">Instagram</a><a href="#">TikTok</a><a href="#">WhatsApp</a></div>
+    <small>© 2026 Scent By Ahingwah. Demo storefront.</small>
+  </footer>
+
+  <aside class="cart-drawer" id="cartDrawer">
+    <div class="drawer-head"><h2>Your cart</h2><button id="closeCart">×</button></div>
+    <div class="cart-items" id="cartItems"></div>
+    <div class="cart-empty" id="cartEmpty">Your cart is empty.<br><a href="#shop" id="startShopping">Start shopping →</a></div>
+    <div class="cart-bottom">
+      <div class="subtotal"><span>Subtotal</span><strong id="cartTotal">GHC 0.00</strong></div>
+      <button class="btn btn-dark full" id="checkoutBtn">Proceed to checkout</button>
+      <button class="whatsapp" id="whatsappBtn">Order via WhatsApp</button>
+    </div>
+  </aside>
+  <div class="overlay" id="overlay"></div>
+
+  <div class="modal" id="checkoutModal">
+    <div class="modal-card">
+      <button class="modal-close" id="closeModal">×</button>
+      <span class="eyebrow">CHECKOUT</span>
+      <h2>Complete your order</h2>
+      <p class="muted">Demo checkout — connect your Paystack public key before going live.</p>
+      <form id="checkoutForm">
+        <label>Full name<input required name="name" placeholder="Your name"></label>
+        <label>Phone number<input required name="phone" placeholder="024 XXX XXXX"></label>
+        <label>Delivery location<input required name="location" placeholder="Kumasi, Accra, etc."></label>
+        <label>Payment method
+          <select name="payment"><option>Paystack</option><option>Cash on delivery</option></select>
+        </label>
+        <div class="checkout-total"><span>Total</span><strong id="checkoutTotal">GHC 0.00</strong></div>
+        <button class="btn btn-dark full" type="submit">Place order →</button>
+      </form>
+    </div>
+  </div>
+
+  <script>
+const PRODUCTS = [
+  {id:1,name:"Sapphire Mist",category:"PERFUMES",type:"perfume",price:145,old:180,stock:true,art:"v1"},
+  {id:2,name:"Sugar & Spice",category:"GIFT SETS / GIFT PACK",type:"gift",price:145,old:180,stock:true,art:"v2"},
+  {id:3,name:"Pure Bloom",category:"PERFUMES",type:"perfume",price:120,old:145,stock:true,art:"v3"},
+  {id:4,name:"Vanilla Rose",category:"PERFUMES",type:"perfume",price:160,old:195,stock:true,art:"v4"},
+  {id:5,name:"Ahingwah Classic",category:"UNISEX",type:"unisex",price:135,old:160,stock:true,art:"v5"},
+  {id:6,name:"Ocean Muse",category:"BODY MISTS",type:"mist",price:95,old:120,stock:true,art:"v6"},
+  {id:7,name:"Amber Nights",category:"PERFUMES",type:"perfume",price:150,old:180,stock:false,art:"v7"},
+  {id:8,name:"Golden Oud",category:"UNISEX",type:"unisex",price:175,old:210,stock:true,art:"v8"}
+];
+
+let cart = JSON.parse(localStorage.getItem("scentCart") || "[]");
+let activeFilter = "all";
+
+const grid = document.getElementById("productGrid");
+const cartCount = document.getElementById("cartCount");
+const cartItems = document.getElementById("cartItems");
+const cartTotal = document.getElementById("cartTotal");
+const cartEmpty = document.getElementById("cartEmpty");
+const drawer = document.getElementById("cartDrawer");
+const overlay = document.getElementById("overlay");
+const checkoutModal = document.getElementById("checkoutModal");
+
+function money(n){ return `GHC ${n.toFixed(2)}`; }
+
+function renderProducts(list=PRODUCTS){
+  grid.innerHTML = list.map(p => `
+    <article class="product-card">
+      <div class="product-visual">
+        <span class="stock">${p.stock ? "● IN STOCK" : "● OUT OF STOCK"}</span>
+        <div class="product-bottle ${p.art}"></div>
+      </div>
+      <div class="product-info">
+        <div class="category">${p.category}</div>
+        <div class="product-name">${p.name}</div>
+        <div class="stars">★★★★★</div>
+        <div class="price">${money(p.price)} <span class="old-price">${money(p.old)}</span></div>
+        <button class="add" ${!p.stock ? "disabled" : ""} onclick="addToCart(${p.id})">${p.stock ? "ADD TO CART" : "OUT OF STOCK"}</button>
+      </div>
+    </article>`).join("");
+}
+
+function save(){ localStorage.setItem("scentCart", JSON.stringify(cart)); }
+
+function addToCart(id){
+  const p=PRODUCTS.find(x=>x.id===id);
+  const found=cart.find(x=>x.id===id);
+  if(found) found.qty++;
+  else cart.push({id,qty:1});
+  save(); renderCart(); openCart();
+}
+
+function changeQty(id,delta){
+  const item=cart.find(x=>x.id===id);
+  if(!item)return;
+  item.qty+=delta;
+  if(item.qty<=0) cart=cart.filter(x=>x.id!==id);
+  save(); renderCart();
+}
+
+function removeItem(id){
+  cart=cart.filter(x=>x.id!==id); save(); renderCart();
+}
+
+function renderCart(){
+  const count=cart.reduce((s,x)=>s+x.qty,0);
+  const total=cart.reduce((s,x)=>{const p=PRODUCTS.find(y=>y.id===x.id);return s+p.price*x.qty},0);
+  cartCount.textContent=count;
+  cartTotal.textContent=money(total);
+  document.getElementById("checkoutTotal").textContent=money(total);
+  cartEmpty.style.display=cart.length ? "none" : "block";
+  cartItems.style.display=cart.length ? "block" : "none";
+  cartItems.innerHTML=cart.map(item=>{
+    const p=PRODUCTS.find(x=>x.id===item.id);
+    return `<div class="cart-row">
+      <div class="mini-art"><div class="product-bottle ${p.art}"></div></div>
+      <div><h4>${p.name}</h4><small>${money(p.price)}</small>
+      <div class="qty"><button onclick="changeQty(${p.id},-1)">−</button><b>${item.qty}</b><button onclick="changeQty(${p.id},1)">+</button></div></div>
+      <button class="remove" onclick="removeItem(${p.id})">REMOVE</button>
+    </div>`;
+  }).join("");
+}
+
+function openCart(){drawer.classList.add("open");overlay.classList.add("show")}
+function closeCart(){drawer.classList.remove("open");overlay.classList.remove("show")}
+
+document.getElementById("cartBtn").onclick=openCart;
+document.getElementById("closeCart").onclick=closeCart;
+overlay.onclick=closeCart;
+document.getElementById("startShopping").onclick=closeCart;
+
+document.getElementById("searchBtn").onclick=()=>document.getElementById("searchPanel").classList.toggle("open");
+document.getElementById("searchInput").addEventListener("input",e=>{
+  const q=e.target.value.toLowerCase();
+  renderProducts(PRODUCTS.filter(p=>`${p.name} ${p.category}`.toLowerCase().includes(q)));
+});
+
+document.getElementById("filterBtn").onclick=()=>document.getElementById("filters").classList.toggle("open");
+document.querySelectorAll(".filter").forEach(btn=>{
+  btn.onclick=()=>{
+    document.querySelectorAll(".filter").forEach(x=>x.classList.remove("active"));
+    btn.classList.add("active");
+    activeFilter=btn.dataset.filter;
+    renderProducts(activeFilter==="all"?PRODUCTS:PRODUCTS.filter(p=>p.type===activeFilter));
+  };
+});
+
+document.getElementById("checkoutBtn").onclick=()=>{
+  if(!cart.length){alert("Your cart is empty.");return}
+  checkoutModal.classList.add("open"); closeCart();
+};
+document.getElementById("closeModal").onclick=()=>checkoutModal.classList.remove("open");
+checkoutModal.addEventListener("click",e=>{if(e.target===checkoutModal)checkoutModal.classList.remove("open")});
+
+document.getElementById("checkoutForm").addEventListener("submit",e=>{
+  e.preventDefault();
+  const data=new FormData(e.target);
+  const total=cart.reduce((s,x)=>s+PRODUCTS.find(p=>p.id===x.id).price*x.qty,0);
+  alert(`Thank you, ${data.get("name")}!\\n\\nDemo order total: ${money(total)}\\nPayment: ${data.get("payment")}\\nDelivery: ${data.get("location")}\\n\\nConnect your Paystack key to accept live payments.`);
+});
+
+document.getElementById("whatsappBtn").onclick=()=>{
+  if(!cart.length){alert("Your cart is empty.");return}
+  const lines=cart.map(x=>{const p=PRODUCTS.find(y=>y.id===x.id);return `${p.name} x${x.qty} — ${money(p.price*x.qty)}`});
+  const total=cart.reduce((s,x)=>s+PRODUCTS.find(p=>p.id===x.id).price*x.qty,0);
+  const text=`Hello Scent By Ahingwah, I'd like to order:\\n\\n${lines.join("\\n")}\\n\\nTotal: ${money(total)}`;
+  window.open(`https://wa.me/233000000000?text=${encodeURIComponent(text)}`,"_blank");
+};
+
+document.getElementById("menuBtn").onclick=()=>{
+  document.querySelector(".nav").style.display = document.querySelector(".nav").style.display==="flex" ? "" : "flex";
+  document.querySelector(".nav").style.position="absolute";
+  document.querySelector(".nav").style.top="68px";
+  document.querySelector(".nav").style.left="0";
+  document.querySelector(".nav").style.right="0";
+  document.querySelector(".nav").style.background="#fff";
+  document.querySelector(".nav").style.padding="18px 22px";
+  document.querySelector(".nav").style.flexDirection="column";
+};
+
+renderProducts();
+renderCart();
+
+</script>
+</body>
+</html>
